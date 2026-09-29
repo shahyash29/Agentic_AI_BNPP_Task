@@ -1,0 +1,12 @@
+student_id,name_on_record,known_aliases,date_of_birth,degree,major,cumulative_gpa,credits_earned,credits_required,final_term,term_end_date,conferral_rule,conferral_date,honors,audit_status,hold_reason,last_audit_update
+S1001,Aarav Mehta,,2002-03-14,Bachelor of Science,Computer Science,3.78,124,120,Spring 2026,2026-05-15,FIXED,2026-05-30,Magna Cum Laude,CLEARED,,2026-06-01
+S1002,Priya Iyer,,2001-11-02,Bachelor of Arts,Economics,3.41,121,120,Spring 2026,2026-05-15,FIXED,2026-05-30,,CLEARED,,2026-06-01
+S1003,Marcus Chen,,2002-07-21,Bachelor of Engineering,Mechanical Engineering,3.12,132,128,Spring 2026,2026-05-15,TERM_END+30D,,,CLEARED,,2026-06-03
+S1004,Elena Rossi,Elena M. Rossi,2002-01-09,Bachelor of Science,Biology,3.71,126,120,Spring 2026,2026-05-15,FIXED,2026-05-30,Magna Cum Laude,CLEARED,,2026-06-12
+S1005,Jamal Carter,,2001-09-30,Bachelor of Arts,Psychology,3.62,118,120,Summer 2026,2026-08-07,TERM_END+14D,,,PENDING_FINAL_GRADES,,2026-08-10
+S1006,Sofia Alvarez,,2002-05-18,Bachelor of Science,Chemistry,3.55,122,120,Spring 2026,2026-05-15,FIXED,2026-05-30,Cum Laude,HOLD_FINANCIAL,Outstanding tuition balance,2026-06-01
+S1007,Liam O'Brien,,2001-12-11,Bachelor of Arts,History,3.45,120,120,Spring 2026,2026-05-15,FIXED,2026-05-30,,CLEARED,,2026-06-01
+S1008,Daniela Okonkwo,,2002-02-27,Bachelor of Science,Mathematics,3.88,124,120,Spring 2026,2026-05-15,FIXED,2026-05-30,Summa Cum Laude,CLEARED,,2026-06-01
+S1009,Hana Sato,,2002-10-05,Master of Science,Data Science,3.90,36,36,Summer 2026,2026-08-07,TERM_END+10BD,,,PENDING_COMMITTEE_APPROVAL,,2026-08-12
+S1010,Noah Williams,,2001-04-16,Bachelor of Science,Physics,3.27,123,120,Spring 2026,2026-05-15,FIXED,2026-05-30,,CLEARED,,2026-06-01
+S1011,Grace Kim,,2002-08-19,Bachelor of Arts,English,3.66,120,120,Spring 2026,2026-05-15,FIXED,2026-05-30,Cum Laude,HOLD_DISCIPLINARY,Pending conduct board outcome,2026-06-01

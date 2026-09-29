@@ -1,0 +1,2 @@
+google-genai>=1.0   # optional: --planner llm --provider gemini (default)
+anthropic>=0.40     # optional: --planner llm --provider claude

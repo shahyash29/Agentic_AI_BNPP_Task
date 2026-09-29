@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets (GEMINI_API_KEY, ANTHROPIC_API_KEY, etc.)
+.env
+.env.*
+
+# Runtime state: SQLite store created by the CLI
+*.db
+*.db-journal
+*.sqlite3
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

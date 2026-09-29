@@ -1,0 +1,23 @@
+UNIVERSITY OF WESTBROOK - OFFICE OF THE REGISTRAR
+DOCUMENT TYPE: OFFICIAL TRANSCRIPT
+DOCUMENT ID: TR-2026-1001
+ISSUE DATE: 2026-06-02
+
+Student Name: Aarav Mehta
+Student ID: S1001
+Date of Birth: 2002-03-14
+Degree: Bachelor of Science
+Major: Computer Science
+Cumulative GPA: 3.78
+Credits Earned: 124
+Final Term: Spring 2026
+Degree Conferral Date: May 30, 2026
+Honors: Magna Cum Laude
+
+--- COURSE HISTORY (abridged) ---
+CS 101   Intro to Programming          4.0  A
+MATH 221 Linear Algebra                3.0  A-
+WRIT 110 Academic Writing              3.0  B+
+--- END OF COURSE HISTORY ---
+
+This transcript is official only when bearing the registrar's seal.

@@ -1,0 +1,37 @@
+{
+  "_comment": "Maps registry audit_status values to the agent's lifecycle action. Matching is case-insensitive. Statuses not listed fall back to prefix rules (HOLD* -> ESCALATE, PENDING* -> FOLLOW_UP, CLEARED -> COMMIT) and finally to ESCALATE.",
+  "statuses": {
+    "degree_conferred": {
+      "action": "COMMIT",
+      "note": "Registry confirms the degree has been conferred"
+    },
+    "requirement_waived": {
+      "action": "COMMIT",
+      "note": "Registry records an approved requirement waiver; record finalised with the waiver noted"
+    },
+    "conferral_pending": {
+      "action": "FOLLOW_UP",
+      "task": "Confirm degree conferral with the Office of the Registrar, then update audit_status",
+      "owner": "registrar",
+      "due_in_days": 7
+    },
+    "grade_appeal_pending": {
+      "action": "FOLLOW_UP",
+      "task": "Await grade appeal outcome, then re-verify GPA and conferral date",
+      "owner": "academic-affairs",
+      "due_in_days": 14
+    },
+    "academic_hold": {
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "note": "Academic hold on the student record"
+    },
+    "record_sealed": {
+      "action": "ESCALATE",
+      "priority": "HIGH",
+      "note": "Record is sealed; automated processing is not permitted - route to the records custodian"
+    }
+  },
+  "overdue_follow_up_days": 2,
+  "credit_minimum": {"value": 120, "severity": "WARN"}
+}

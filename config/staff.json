@@ -1,0 +1,5 @@
+{
+  "a.nguyen":  {"role": "reviewer",   "name": "Anh Nguyen, Records Specialist"},
+  "r.patel":   {"role": "supervisor", "name": "Rhea Patel, Associate Registrar"},
+  "auditor":   {"role": "viewer",     "name": "Internal Audit (read-only)"}
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Map canonical fields to the column headers used in your registry export. Entries here are tried before the built-in aliases.",
+  "student_id": ["Student ID"],
+  "name": ["Name on Record"]
+}
