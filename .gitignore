@@ -10,7 +10,7 @@ dist/
 venv/
 env/
 
-# Secrets (GEMINI_API_KEY, ANTHROPIC_API_KEY, etc.)
+# Secrets (GEMINI_API_KEY, ANTHROPIC_API_KEY, SONAR_TOKEN, etc.)
 .env
 .env.*
 
@@ -22,7 +22,12 @@ env/
 # Test / tooling caches
 .pytest_cache/
 .coverage
+coverage.xml
 htmlcov/
+
+# SonarQube scanner output
+.scannerwork/
+.sonar/
 .mypy_cache/
 .ruff_cache/
 

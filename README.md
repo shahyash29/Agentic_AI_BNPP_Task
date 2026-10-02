@@ -197,6 +197,21 @@ unusual, and calls `submit_decision`. The LLM extraction fallback fills fields t
 messy or unknown documents (pattern values always win). The live API path is exercised in tests with a
 scripted fake client. Run it against the real API before relying on it.
 
+## Code quality (SonarQube, optional)
+
+```bash
+docker run -d --name sonarqube -p 9000:9000 sonarqube:latest    # first time; later: docker start sonarqube
+pip install pysonar coverage
+export SONAR_TOKEN=...                           # project token from http://localhost:9000
+coverage run --source=registrar_agent -m unittest discover -s tests && coverage xml
+pysonar                                          # reads sonar-project.properties
+```
+
+The scan covers the whole repository, with `tests/` indexed as test code and git-ignored files skipped.
+Host URL, project key (`Agentic_AI_BNPP_Task`) and scope live in `sonar-project.properties`. The token is
+read from `SONAR_TOKEN` and is never stored in the repo. Results appear at
+`http://localhost:9000/dashboard?id=Agentic_AI_BNPP_Task`.
+
 ## Plugging in your real data
 
 1. Point `--registry` at your CSV. Add header aliases to `config/registry_mapping.json` if needed.
